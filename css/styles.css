@@ -1,0 +1,60 @@
+body{
+    background-color: whitesmoke;
+    width: 90%;
+    margin:auto;
+}
+.col-sm-6{
+padding-right: 5px;
+}
+#myCarousel{
+    margin-top: 60px;
+}
+.pics{
+    width:100%;
+    margin-top:50px;
+}
+p{             
+    float:left;
+    margin-bottom: 5%;
+    margin-left: 1%;
+}
+#Bold{
+    font-family: fantasy;
+    font-size: 120%;
+}
+#pic1{
+    float: left;
+    margin-left:1%;
+    width:35%;
+}
+#pictext{
+    overflow: auto; 
+    float:left;
+    width:62%;
+}
+.contact1{
+    width:60%;
+}
+.col-lg-4, .col-md-4{
+    border-left: 2px dotted;
+}
+@media screen and (min-width:350px) and (max-width:991px){
+    .col-lg-2, col-md-2{
+    clear: both;
+    }
+    .contact1{
+        width:30%;
+    }
+}
+@media screen and (max-width:624px){
+     #pictext{
+        clear:both;
+        width: 100%;
+    }
+    #pic1{
+        width: 80%;
+    }
+     .contact1{
+        width:50%;
+    }
+}
